@@ -11,6 +11,7 @@ pandas = "^2.2.2"
 altair = "^5.3.0"
 streamlit = "^1.33.0"
 pillow = "^10.3.0"
+st-clickable-images = "^0.0.3"
 
 
 [tool.poetry.group.dev.dependencies]

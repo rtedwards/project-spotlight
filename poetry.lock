@@ -1008,6 +1008,20 @@ files = [
 ]
 
 [[package]]
+name = "st-clickable-images"
+version = "0.0.3"
+description = "A Streamlit component to display clickable images"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "st-clickable-images-0.0.3.tar.gz", hash = "sha256:84a1337f9364bdb8f5a3c4d85faa6695fd959f449915a616a3a3a47e37b1f7f1"},
+    {file = "st_clickable_images-0.0.3-py3-none-any.whl", hash = "sha256:c35555a660233be01f502202a210f01129f9d111033a8b1f2a4dac0ae177fcd8"},
+]
+
+[package.dependencies]
+streamlit = ">=0.63"
+
+[[package]]
 name = "streamlit"
 version = "1.33.0"
 description = "A faster way to build and share data apps"
@@ -1181,4 +1195,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9c2a56f4b14c4c03165b05a50befd3b7e581b9bf09e30b9b2f43d3649d8ae41f"
+content-hash = "db99316f55c165a44502389cb43ae94528f02d4d65254be80d7dd0362f697664"
